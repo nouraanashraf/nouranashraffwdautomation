@@ -1,0 +1,13 @@
+org\example\Pages\P01_register.class
+org\example\StepDefinition\D08_WishList.class
+org\example\StepDefinition\D05_HoverCategories.class
+org\example\StepDefinition\D04_Search.class
+org\example\StepDefinition\Hooks.class
+org\example\Pages\P02_login.class
+org\example\StepDefinition\D01_Register.class
+org\example\StepDefinition\D02_Login.class
+org\example\StepDefinition\D07_FollowUsStepDef.class
+org\example\Pages\P03_homePage.class
+org\example\StepDefinition\D06_HomeSliders.class
+org\example\Runners\Runners.class
+org\example\StepDefinition\D03_ChangeCurrency.class

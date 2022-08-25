@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: org.example.Runners.Runners
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 247.571 s <<< FAILURE! - in org.example.Runners.Runners
+org.example.Runners.Runners.runScenario["First slider is clickable on homepage", "F06_HomeSliders | users will be able to open sliders in home page"](8)  Time elapsed: 13.198 s  <<< FAILURE!
+java.lang.AssertionError: URL of First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.StepDefinition.D06_HomeSliders.first_slide_displayed(D06_HomeSliders.java:22)
+	at ✽.user is directed to the nokia lumia 1020 page(file:///C:/Users/Bahar/IdeaProjects/NouranAshraf-FWDAutomation/src/main/resources/features/F06_HomeSliders.feature:6)
+
+org.example.Runners.Runners.runScenario["Second slider is clickable on homepage", "F06_HomeSliders | users will be able to open sliders in home page"](9)  Time elapsed: 13.594 s  <<< FAILURE!
+java.lang.AssertionError: URL of Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.StepDefinition.D06_HomeSliders.second_slide_displayed(D06_HomeSliders.java:36)
+	at ✽.user is directed to the iphone 6 page(file:///C:/Users/Bahar/IdeaProjects/NouranAshraf-FWDAutomation/src/main/resources/features/F06_HomeSliders.feature:11)
+
+org.example.Runners.Runners.runScenario["user opens rss link", "F07_FollowUs | users could open followUs links"](12)  Time elapsed: 16.947 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at org.example.StepDefinition.D07_FollowUsStepDef.opens_new_tab(D07_FollowUsStepDef.java:23)
+	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Bahar/IdeaProjects/NouranAshraf-FWDAutomation/src/main/resources/features/F07_FollowUs.feature:24)
+
